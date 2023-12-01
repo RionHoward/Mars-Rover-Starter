@@ -50,6 +50,8 @@ class Rover {
             }
             this.position= message.commands[i].value
             response.results.push(moveCommand);
+
+            
          }
 
 
